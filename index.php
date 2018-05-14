@@ -1,14 +1,5 @@
-<!doctype html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Test Wordpress Theme</title>
-    <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/main.css">
-</head>
-<body>
-    Test theme
-</body>
-</html>
+<?php get_header(); ?>
+    <h1>Index file</h1>
+<?php get_template_part( 'content', get_post_format() ); ?>
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
