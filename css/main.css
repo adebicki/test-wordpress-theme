@@ -1,3 +1,34 @@
 body {
     background: #ffa500;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.content {
+    flex:1;
+    padding: 10px;
+    background: #f152ff;
+}
+
+.post-entry {
+    padding: 10px 20px;
+    margin: 10px 0;
+    background: #ffcf5d;
+}
+
+.sidebar {
+    padding: 10px;
+    background: #5ecfff;
+    min-width: 200px;
+}
+
+.sidebar__box {
+    padding: 10px;
+    background: #5f68ff;
+    margin: 0 0 10px;
 }

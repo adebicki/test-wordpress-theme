@@ -12,4 +12,11 @@
 
 </head>
 <body>
-<h1>Header</h1>
+<h1><a href="<?php echo(get_bloginfo('wpurl')); ?>">header.php - <?php echo(get_bloginfo('name')); ?></a></h1>
+<p><?php echo(get_bloginfo('description')); ?></p>
+
+<div class="navbar">
+    <?php wp_list_pages('title_li="XYZ A"&depth=0'); ?>
+</div>
+
+<?php echo($post->post_parent); ?>

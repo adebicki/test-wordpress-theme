@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <h2>Index file</h2>
+    <h2>Page file</h2>
 
     <div class="main-container">
         <div class="content">
@@ -11,7 +11,6 @@
             <?php endwhile; endif; ?>
         </div>
 
-        <?php get_sidebar(); ?>
     </div>
 
 <?php get_footer(); ?>
