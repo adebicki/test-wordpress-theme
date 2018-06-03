@@ -8,7 +8,14 @@
 
                 <?php get_template_part( 'content', get_post_format() ); ?>
 
-            <?php endwhile; endif; ?>
+            <?php endwhile; ?>
+
+            <div class="pagination">
+                <?php next_posts_link( 'Starsze wpisy' ); ?>
+                <?php previous_posts_link( 'Nowsze wpisy' ); ?>
+            </div>
+
+            <?php endif; ?>
         </div>
 
         <?php get_sidebar(); ?>

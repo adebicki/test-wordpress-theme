@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <h2>Page file</h2>
+    <h2>page.php file</h2>
 
     <div class="main-container">
         <div class="content">
