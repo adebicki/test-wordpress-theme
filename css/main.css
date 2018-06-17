@@ -32,3 +32,9 @@ body {
     background: #5f68ff;
     margin: 0 0 10px;
 }
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

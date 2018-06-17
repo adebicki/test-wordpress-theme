@@ -2,6 +2,9 @@
     <h2>content.php file</h2>
     <h6><?php the_author(); ?>, <?php the_date(); ?></h6>
     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+    <?php if ( has_post_thumbnail() ) {
+        the_post_thumbnail('thumbnail', ['class' => 'img-responsive']);
+    } ?>
     <p><?php the_excerpt(); ?></p>
     <a href="<?php comments_link(); ?>">
         <?php
